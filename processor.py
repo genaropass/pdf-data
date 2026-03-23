@@ -64,4 +64,4 @@ def save_chunks(chunks):
     with open("output/chunks.json", "w", encoding="utf-8") as f:
         json.dump(chunks, f, indent=2, ensure_ascii=False)
 
-    print("💾 Chunks guardados")
+    print("Chunks guardados")
